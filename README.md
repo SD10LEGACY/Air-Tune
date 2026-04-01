@@ -1,72 +1,93 @@
+<!-- ================== CRT SCANLINE OVERLAY ================== -->
+
+<p align="center">
+  <img src="https://i.imgur.com/8fK4h6S.gif" width="100%">
+</p>
+
 # 💿 AIR TUNE.exe
 
-### *booting nostalgia... please wait*
+### `> system boot initiated...`
 
-```
-[ SYSTEM INITIALIZING ▓▓▓▓▓▓▓▓░░░░░ ] 62%
-```
-
-> ⚠ WARNING
-> This interface may cause sudden nostalgia, dopamine spikes, and an uncontrollable urge to open Winamp.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FF9C&size=18&center=true&vCenter=true&width=500&lines=gesture+controlled+sound+engine;webcam+becomes+instrument;this+is+not+normal+software" />
+</p>
 
 ---
 
-## 🖥️ ░▒▓ ABOUT SYSTEM ▓▒░
+<!-- ================== FLOATING ICON CHAOS ================== -->
 
-**Air Tune** is not just another web app.
-It’s a *machine*. A *toy*. A *time portal*.
-
-A browser-based, gesture-controlled **music workstation** that turns a webcam into a **polyphonic instrument**.
-
-Move hands → bend sound
-Pinch fingers → trigger notes
-Exist → create music
-
-Built with a **90s OS illusion**, powered by modern computer vision.
+<p align="center">
+  <img src="https://i.imgur.com/Z6X6K9S.gif" width="80">
+  <img src="https://i.imgur.com/QrK0P9V.gif" width="80">
+  <img src="https://i.imgur.com/3cXKX0P.gif" width="80">
+  <img src="https://i.imgur.com/jkF6FQG.gif" width="80">
+</p>
 
 ---
 
-## 🎛️ ░▒▓ FEATURES.DLL ▓▒░
+## 🖥️ WINDOW_01.exe
 
 ```
-✔ Gesture-Based Sound Control
-✔ Real-Time Audio Synthesis
-✔ Multi-Instrument Layers
-✔ Zero Hardware Required (just vibes + webcam)
-✔ Retro UI with Maximum Personality
+┌──────────────────────────────┐
+│   AIR TUNE SYSTEM PANEL      │
+├──────────────────────────────┤
+│ status: ONLINE               │
+│ input: WEBCAM               │
+│ mode: PERFORMANCE           │
+│ vibe: UNSTABLE BUT COOL     │
+└──────────────────────────────┘
 ```
 
-> feels illegal. works perfectly.
+💿 Air Tune turns gestures into **sound architecture**.
+Not buttons. Not sliders.
+Just motion → music.
 
 ---
 
-## 🧠 ░▒▓ HOW IT WORKS ▓▒░
+## 🎛️ WINDOW_02.dll — FEATURES
+
+<p align="center">
+  <img src="https://i.imgur.com/2s9XbZL.gif" width="350">
+</p>
 
 ```
-[ Webcam Input ] --> [ Hand Tracking ] --> [ Gesture Mapping ] --> [ Sound Engine ]
+✦ hand tracking (real-time)
+✦ polyphonic synthesis
+✦ gesture → pitch mapping
+✦ zero physical hardware
+✦ visual nostalgia overload
 ```
-
-* Tracks fingers using computer vision
-* Maps gestures to pitch, velocity, modulation
-* Outputs **live synthesized audio**
-
-No MIDI. No controllers.
-Just hands.
 
 ---
 
-## 🎚️ ░▒▓ TECH STACK ▓▒░
+## 🧠 WINDOW_03.sys — PIPELINE
 
-| Layer  | Tech               |
-| ------ | ------------------ |
-| Vision | MediaPipe / OpenCV |
-| Audio  | Web Audio API      |
-| UI     | HTML / CSS / WebGL |
-| Brain  | JavaScript         |
+```
+[ CAMERA ]
+   ↓
+[ HAND DETECTION ]
+   ↓
+[ GESTURE ENGINE ]
+   ↓
+[ AUDIO SYNTHESIS ]
+   ↓
+[ REALITY DISTORTION ]
+```
 
 ---
 
-## 💾 ░▒▓ INSTALLATION ▓▒░
+## 🎮 WINDOW_04.cfg — CONTROLS
+
+| Gesture | Effect       |
+| ------- | ------------ |
+| ✋       | activate     |
+| 🤏      | note trigger |
+| ⬆⬇      | pitch        |
+| ⬅➡      | modulation   |
+
+---
+
+## 💻 WINDOW_05.sh — INSTALL
 
 ```bash
 git clone https://github.com/your-username/air-tune.git
@@ -75,85 +96,65 @@ npm install
 npm run dev
 ```
 
-Then open:
-
 ```
-http://localhost:3000
-```
-
-Grant webcam access or nothing works. Obviously.
-
----
-
-## 🎮 ░▒▓ CONTROLS ▓▒░
-
-| Gesture         | Action           |
-| --------------- | ---------------- |
-| Open palm       | Start tracking   |
-| Pinch           | Trigger note     |
-| Move up/down    | Pitch shift      |
-| Move left/right | Pan / modulation |
-
----
-
-## 📀 ░▒▓ UI PHILOSOPHY ▓▒░
-
-This is NOT minimal.
-This is NOT clean.
-
-This is:
-
-```
-CLUTTERED ✦ CHAOTIC ✦ BEAUTIFUL ✦ HUMAN
-```
-
-Inspired by:
-
-* Old Windows dialogs
-* Pixel cursors
-* CD players
-* Internet Explorer chaos
-* Early 2000s “everything at once” design
-
----
-
-## 🧩 ░▒▓ ROADMAP ▓▒░
-
-```
-[ ] Multi-user jam sessions
-[ ] Custom instrument builder
-[ ] VR / spatial audio mode
-[ ] MIDI export
-[ ] Glitch mode (??)
+if webcam == denied:
+    system collapse
 ```
 
 ---
 
-## ⚠ ░▒▓ DISCLAIMER ▓▒░
+## 🧬 WINDOW_06.ui — DESIGN PHILOSOPHY
 
-* Might lag on weak machines
-* Might make one feel like a hacker from 2003
-* Might accidentally create a hit song
+<p align="center">
+  <img src="https://i.imgur.com/FxR7XkS.gif" width="400">
+</p>
+
+```
+MINIMALISM = BORING
+
+THIS = 
+✦ NOISE
+✦ CHAOS
+✦ COLOR
+✦ MEMORY
+```
+
+Feels like:
+
+* opening a PC in 2003
+* clicking random icons at 2AM
+* discovering something you weren’t supposed to
 
 ---
 
-## 💿 ░▒▓ FINAL LOG ▓▒░
+## 📀 SECRET.exe
+
+<p align="center">
+  <img src="https://i.imgur.com/5kKz7ZP.gif" width="250">
+</p>
 
 ```
 destiny can be changed only in the present
 ```
 
-> — daajil
+---
+
+## 🖱️ START_MENU
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STAR-%2300ff9c?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/FORK-%23ff00c8?style=for-the-badge&logo=git">
+  <img src="https://img.shields.io/badge/PLAY-%2300c3ff?style=for-the-badge">
+</p>
+
+```
+[ OK ]  [ CANCEL ]  [ IGNORE WARNINGS ]
+```
 
 ---
 
-## 🖱️ ░▒▓ CLICK START ▓▒░
+<!-- ================== GLITCH FOOTER ================== -->
 
-⭐ Star the repo
-🍴 Fork it
-🧠 Break it
-🎶 Play it
-
-```
-[ OK ]
-```
+<p align="center">
+  <img src="https://i.imgur.com/w3duR07.gif" width="100%">
+</p>
