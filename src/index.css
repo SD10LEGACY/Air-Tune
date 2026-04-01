@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-pixel: "VT323", monospace;
+  --font-display: "Press Start 2P", system-ui;
+}
+
+@layer base {
+  body {
+    @apply bg-[#008080] overflow-hidden; /* Classic Windows Teal background */
+  }
+}
+
+@layer components {
+  .win-border-outset {
+    border: 2px solid;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #404040;
+    border-bottom-color: #404040;
+    background-color: #c0c0c0;
+  }
+
+  .win-border-inset {
+    border: 2px solid;
+    border-top-color: #404040;
+    border-left-color: #404040;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  .win-button {
+    @apply px-2 py-1 active:translate-x-[1px] active:translate-y-[1px];
+    border: 2px solid;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #404040;
+    border-bottom-color: #404040;
+    background-color: #c0c0c0;
+  }
+
+  .win-button:active {
+    border-top-color: #404040;
+    border-left-color: #404040;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+
+  .lcd-display {
+    @apply bg-[#94b094] border-2 border-[#404040] shadow-inner font-pixel text-[#1a1a1a];
+  }
+}
