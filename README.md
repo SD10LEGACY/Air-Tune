@@ -1,85 +1,159 @@
-<div align="center">
+# 💿 AIR TUNE.exe
 
-# 💿 AIR_OS // NEURAL_WORKSTATION_v1.0
-### [ 🟢 SYSTEM_STATUS: STABLE ]
+### *booting nostalgia... please wait*
 
-<img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="100%" alt="Air OS Splash" />
+```
+[ SYSTEM INITIALIZING ▓▓▓▓▓▓▓▓░░░░░ ] 62%
+```
 
-<p align="center">
-  <img src="assets/_2000s Y2K Stickers You’ll Obsess Over 💖_.jpg" width="180" style="transform: rotate(-12deg); margin-right: -40px;" />
-  <img src="assets/像素桌面图标7.jpg" width="120" style="z-index: 10; position: relative;" />
-  <img src="assets/Screenshot 2026-04-01 180854.jpg" width="180" style="transform: rotate(8deg); margin-left: -40px;" />
-</p>
-
-**Air OS** is a browser-native, gesture-reactive performance environment. It digitizes human motion into high-fidelity soundscapes, bypassing MIDI hardware via real-time hand landmark projection and hardware-accelerated synthesis.
+> ⚠ WARNING
+> This interface may cause sudden nostalgia, dopamine spikes, and an uncontrollable urge to open Winamp.
 
 ---
 
-## 📂 MOUNTED_DRIVES [ THE SUITE ]
+## 🖥️ ░▒▓ ABOUT SYSTEM ▓▒░
 
-<table border="0">
-<tr>
-<td width="50%">
-<img src="assets/y2k early 2000s old windows inspired apple widget aesthetic cd player silk sonic bruno mars (1).webp" width="100%" />
-<br />
-<div align="center"><b>PIANO_ENGINE.DLL</b></div>
-</td>
-<td width="50%">
+**Air Tune** is not just another web app.
+It’s a *machine*. A *toy*. A *time portal*.
 
-### 🎹 SALAMANDER_PIANO
-* **Acoustics**: High-fidelity `Tone.Sampler` engine utilizing multi-velocity Salamander Piano recordings.
-* **Spatial Logic**: Integrated **Reverb Diffusion** for natural room acoustics.
-* **Controls**: `Left Hand` binary gesture for Octave selection (1-7) + `Right Hand` coordinate-mapped key strikes.
+A browser-based, gesture-controlled **music workstation** that turns a webcam into a **polyphonic instrument**.
 
-</td>
-</tr>
+Move hands → bend sound
+Pinch fingers → trigger notes
+Exist → create music
 
-<tr>
-<td width="50%">
-
-### 🥁 CR78_PERCUSSION
-* **Core**: Hybrid synthesis (Membrane + Noise) replicating vintage hardware percussive modules.
-* **Physics**: Euclidean distance mapping between `indexTip` landmarks and virtual drum pads.
-* **Interaction**: Velocity-sensitive "Air Strikes" triggered by vertical Y-axis acceleration relative to the wrist.
-
-</td>
-<td width="50%">
-<img src="assets/y2k early 2000s old windows inspired apple widget aesthetic cd player money honey lady gaga (1).webp" width="100%" />
-<br />
-<div align="center"><b>DRUM_MODULE.SYS</b></div>
-</td>
-</tr>
-</table>
-
-<details>
-<summary>📂 EXPAND_ADDITIONAL_BINARIES (Harmonium, Guitar, Xylophone)</summary>
-
-* **🪗 Harmonium**: Authentic Sargam (Sa-Re-Ga) mapping with gesture stabilization buffers to prevent detection flickering.
-* **🎸 Air Guitar**: Dual-state logic featuring `Strum Mode` (chord gestures) and `Fretboard Mode` (string/fret grid interaction).
-* **🔔 Xylophone**: Rosewood percussive engine featuring motion-based sparkle animations and low-latency triangle-wave oscillators.
-
-</details>
+Built with a **90s OS illusion**, powered by modern computer vision.
 
 ---
 
-## 🛠️ KERNEL_ARCH
-**[ REWIRING_THE_HUMAN_INTERFACE ]**
+## 🎛️ ░▒▓ FEATURES.DLL ▓▒░
 
-* **Desktop Environment**: Custom React 19 state machine managing persistent window stacks, `zIndex` prioritization, and taskbar app-previews.
-* **Neural Interface**: Low-latency hand tracking projecting 21-point spatial coordinates for real-time interaction.
-* **Audio Drivers**: Tone.js V15 architecture with hardware-level `lookAhead` latency optimization (0.01s - 0.1s toggle).
-* **Visual Engine**: Tailwind CSS 4 + Framer Motion hardware-accelerated window transitions and pixel-perfect UI.
+```
+✔ Gesture-Based Sound Control
+✔ Real-Time Audio Synthesis
+✔ Multi-Instrument Layers
+✔ Zero Hardware Required (just vibes + webcam)
+✔ Retro UI with Maximum Personality
+```
+
+> feels illegal. works perfectly.
 
 ---
 
-## 💾 BOOT_SEQUENCE
+## 🧠 ░▒▓ HOW IT WORKS ▓▒░
+
+```
+[ Webcam Input ] --> [ Hand Tracking ] --> [ Gesture Mapping ] --> [ Sound Engine ]
+```
+
+* Tracks fingers using computer vision
+* Maps gestures to pitch, velocity, modulation
+* Outputs **live synthesized audio**
+
+No MIDI. No controllers.
+Just hands.
+
+---
+
+## 🎚️ ░▒▓ TECH STACK ▓▒░
+
+| Layer  | Tech               |
+| ------ | ------------------ |
+| Vision | MediaPipe / OpenCV |
+| Audio  | Web Audio API      |
+| UI     | HTML / CSS / WebGL |
+| Brain  | JavaScript         |
+
+---
+
+## 💾 ░▒▓ INSTALLATION ▓▒░
 
 ```bash
-# 1. CLONE_LOCAL_DRIVE
-git clone [https://github.com/user/air-os.git](https://github.com/user/air-os.git)
-
-# 2. SYNC_SYSTEM_DEPENDENCIES
+git clone https://github.com/your-username/air-tune.git
+cd air-tune
 npm install
-
-# 3. INITIALIZE_OS
 npm run dev
+```
+
+Then open:
+
+```
+http://localhost:3000
+```
+
+Grant webcam access or nothing works. Obviously.
+
+---
+
+## 🎮 ░▒▓ CONTROLS ▓▒░
+
+| Gesture         | Action           |
+| --------------- | ---------------- |
+| Open palm       | Start tracking   |
+| Pinch           | Trigger note     |
+| Move up/down    | Pitch shift      |
+| Move left/right | Pan / modulation |
+
+---
+
+## 📀 ░▒▓ UI PHILOSOPHY ▓▒░
+
+This is NOT minimal.
+This is NOT clean.
+
+This is:
+
+```
+CLUTTERED ✦ CHAOTIC ✦ BEAUTIFUL ✦ HUMAN
+```
+
+Inspired by:
+
+* Old Windows dialogs
+* Pixel cursors
+* CD players
+* Internet Explorer chaos
+* Early 2000s “everything at once” design
+
+---
+
+## 🧩 ░▒▓ ROADMAP ▓▒░
+
+```
+[ ] Multi-user jam sessions
+[ ] Custom instrument builder
+[ ] VR / spatial audio mode
+[ ] MIDI export
+[ ] Glitch mode (??)
+```
+
+---
+
+## ⚠ ░▒▓ DISCLAIMER ▓▒░
+
+* Might lag on weak machines
+* Might make one feel like a hacker from 2003
+* Might accidentally create a hit song
+
+---
+
+## 💿 ░▒▓ FINAL LOG ▓▒░
+
+```
+destiny can be changed only in the present
+```
+
+> — daajil
+
+---
+
+## 🖱️ ░▒▓ CLICK START ▓▒░
+
+⭐ Star the repo
+🍴 Fork it
+🧠 Break it
+🎶 Play it
+
+```
+[ OK ]
+```
