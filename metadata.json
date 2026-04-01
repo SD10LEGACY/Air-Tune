@@ -1,5 +1,0 @@
-{
-  "name": "Air Tune",
-  "description": "A virtual instrument suite that uses your camera and hand tracking to play piano, guitar, drums, and more.",
-  "requestFramePermissions": ["camera"]
-}
