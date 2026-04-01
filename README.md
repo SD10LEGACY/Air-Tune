@@ -22,8 +22,8 @@ No MIDI controllers, no physical keys—just your hands and the air.
 
 <div align="center">
   <p align="center">
-    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80" width="45%" alt="Retro OS Interface" />
-    <img src="https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&q=80" width="45%" alt="Hand Tracking Tech" />
+    <img src="src/pics/desktop.png" width="45%" alt="Desktop UI" />
+    <img src="src/pics/startmenu.png" width="45%" alt="Start Menu and Programs" />
   </p>
   <p><i>(Replace these with actual screenshots of your app! Tip: Use a GIF of you playing the Air Piano for maximum impact.)</i></p>
 </div>
