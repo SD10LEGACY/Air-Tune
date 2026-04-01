@@ -183,7 +183,7 @@ export default function Desktop() {
   const apps = [
     { 
       id: 'piano', 
-      title: 'Air Tune', 
+      title: 'Air Piano', 
       icon: <Keyboard className="w-8 h-8 text-blue-800" />, 
       component: AirPianoApp 
     },
