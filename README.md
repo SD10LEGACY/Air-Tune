@@ -23,9 +23,9 @@ No MIDI controllers, no physical keys—just your hands and the air.
 <div align="center">
   <p align="center">
     <img src="src/pics/desktop.png" width="100%" alt="Desktop UI" />
-    ##<img src="src/pics/startmenu.png" width="45%" alt="Start Menu and Programs" />
+    <!--<img src="src/pics/startmenu.png" width="45%" alt="Start Menu and Programs" />-->
   </p>
-  <p><i>(Replace these with actual screenshots of your app! Tip: Use a GIF of you playing the Air Piano for maximum impact.)</i></p>
+  <!--<p><i>(Replace these with actual screenshots of your app! Tip: Use a GIF of you playing the Air Piano for maximum impact.)</i></p>-->
 </div>
 
 ---
