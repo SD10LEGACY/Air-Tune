@@ -1,61 +1,66 @@
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" width="100%" alt="AIR OS BANNER" />
+# 💿 AIR_OS: VIRTUAL INSTRUMENT SUITE
+### [ SYSTEM STATUS: ONLINE ]
 
-# 💿 AIR TUNE // SYSTEM_OS v1.0.4
-### *“Where Computer Vision meets the Virtual Soul.”*
+<img src="assets/Y2K Wallpaper.jpg" width="100%" alt="Air OS Desktop" />
 
-[![React 19](https://img.shields.io/badge/REACT-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Tone.js](https://img.shields.io/badge/AUDIO-TONE.JS-black?style=for-the-badge)](https://tonejs.github.io/)
-[![MediaPipe](https://img.shields.io/badge/AI-MEDIAPIPE-007f7f?style=for-the-badge)](https://google.github.io/mediapipe/)
-[![Vite 6](https://img.shields.io/badge/BUILD-VITE_6-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+<p align="center">
+  <img src="assets/_2000s Y2K Stickers You’ll Obsess Over 💖_.jpg" width="300" />
+</p>
+
+**Air OS** is a browser-native desktop environment designed for gesture-based music production. It bypasses traditional MIDI hardware by mapping hand landmarks to high-fidelity synthesis engines.
+
+---
+
+## 📂 INSTALLED BINARIES (INSTRUMENTS)
+
+<div align="left">
+
+### 🎹 SALAMANDER_PIANO.DLL
+<img src="assets/y2k early 2000s old windows inspired apple widget aesthetic cd player silk sonic bruno mars (1).webp" align="right" width="200" />
+
+* **Logic:** Uses `Tone.Sampler` for high-fidelity multi-sampled audio.
+* **Controls:** Left hand sets the `activeOctave` (1-7), Right hand executes key strikes.
+* **Aesthetic:** Retro LCD display with real-time frequency feedback.
+
+### 🥁 CR78_DRUM_KIT.SYS
+<img src="assets/Screenshot 2026-04-01 180854.jpg" align="right" width="200" />
+
+* **Logic:** Hybrid synthesis using `MembraneSynth` (Kick/Toms) and `NoiseSynth` (Snare).
+* **Collision Detection:** Euclidean distance mapping between `indexTip` landmarks and virtual coordinate pads.
+* **Interaction:** Velocity-sensitive "Air Strikes" based on vertical hand movement.
+
+### 🎸 GUITAR_AMP.EXE
+* **Logic:** Polyphonic triangle-wave synthesis with resonant filtering.
+* **Modes:** `Strum Mode` for gesture-based chords vs `Fretboard Mode` for 15-fret grid interaction.
 
 </div>
 
 ---
 
-## 🖥️ SYSTEM BOOT SEQUENCE...
-`[OK]` Initializing `Salamander_Piano.dll`  
-`[OK]` Calibrating `HandLandmarker` Service...  
-`[OK]` Loading Rosewood Xylophone Samples...  
-`[OK]` Desktop Environment Ready.  
+## 🛠️ KERNEL ARCHITECTURE
+<img src="assets/像素桌面图标7.jpg" width="100%" />
 
-> **Air Tune** is a high-fidelity, gesture-controlled digital audio workstation (DAW) wrapped in a nostalgic Y2K desktop interface. No physical keys. No hardware controllers. Just your hands and the air.
-
----
-
-## 🕹️ THE INSTALLED SUITE
-
-| APP | DESCRIPTION | INPUT LOGIC |
-| :--- | :--- | :--- |
-| **🎹 Air Piano** | Pro-grade Sampling via Salamander Piano | **Left:** Octave Select / **Right:** Key Strike |
-| **🎸 Air Guitar** | Dual-mode Strum & Fretboard interaction | **Strum Mode:** Gesture-based Chord Switching |
-| **🥁 Air Drums** | Synthesized CR78 Percussion Module | **Velocity Detect:** Relative Y-axis finger strikes |
-| **🪗 Harmonium** | Authentic Sargam (Sa-Re-Ga) Mapping | **Stabilized:** Octave/Key Buffering for Ragas |
-| **🔔 Xylophone** | Rosewood Engine with ✨ Sparkle Transitions | **Sticks Mode:** Index tip collision detection |
+| COMPONENT | SPECIFICATION |
+| :--- | :--- |
+| **Window Manager** | Custom React 19 state machine handling `zIndex`, minimization, and focus. |
+| **Neural Core** | MediaPipe Hands via `handLandmarkerService` for real-time tracking. |
+| **Audio Engine** | Tone.js V15 with customizable `lookAhead` latency drivers. |
+| **UI Framework** | Tailwind CSS 4 + Framer Motion for hardware-accelerated window transitions. |
 
 ---
 
-## 🎨 AESTHETIC PROPERTIES
-This project is a performance art piece in UI/UX, heavily inspired by early 2000s "Bliss" landscapes and pixel-perfect window managers.
-
-* **Window Manager Core:** A custom-built React environment with `zIndex` focus, taskbar app previews, and persistence.
-* **Low-Latency Lookahead:** Built-in hardware toggle to balance system overhead vs. real-time audio response.
-* **LCD Visualizers:** Retro green-on-black displays for active note feedback and system status.
-
----
-
-## 🛠️ SETUP WIZARD
-
+## 💾 INSTALLATION LOG
 ```bash
-# 1. Clone the Virtual Machine
-git clone [https://github.com/your-username/air-tune.git](https://github.com/your-username/air-tune.git)
+> Initializing clone...
+git clone [https://github.com/user/air-tune.git](https://github.com/user/air-tune.git)
 
-# 2. Inject the Neural Core
+> Booting dependencies...
 npm install
 
-# 3. Configure the Secrets
-😉
+> Setting Environment variables...
+# Add your API keys to .env
 
-# 4. Initialize Desktop
+> Starting System...
 npm run dev
