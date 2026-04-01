@@ -325,15 +325,15 @@ export default function Desktop() {
           className="absolute inset-0 z-0"
           style={{ 
             backgroundImage: `url(${wallpaper})`,
-            backgroundRepeat: wallpaper.startsWith('data:image') ? 'repeat' : 'no-repeat',
-            backgroundSize: wallpaper.startsWith('data:image') ? 'auto' : 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
         />
       ) : (
         <div className="absolute inset-0 z-0 win-theme-desktop-bg" />
       )}
-
+      
       {/* Desktop Icons */}
       <div className="absolute top-4 left-4 flex flex-col gap-8 z-10">
         {apps.map(app => (
