@@ -683,7 +683,7 @@ export default function AirPianoApp({ isMinimized = false, setShowBSOD }: { isMi
                   <Keyboard className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="text-xl font-bold italic">Air Tune Setup</h2>
+                  <h2 className="text-xl font-bold italic">Air Piano Setup</h2>
                   <p className="text-[10px] opacity-70">Version 3.0.4 - Gesture Control Edition</p>
                 </div>
               </div>
