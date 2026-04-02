@@ -77,8 +77,8 @@ No MIDI controllers, no physical keys—just your hands and the air.
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/air-tune.git
-    cd air-tune
+    git clone https://github.com/SD10LEGACY/Air-Tune.git
+    cd Air-tune
     ```
 
 2.  **Install dependencies**:
